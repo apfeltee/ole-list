@@ -8,7 +8,7 @@ require "win32ole"
 AVOID_DUPLICATE_CLASSES = true
 # whether to shorten the param array (from a hash to an array being [<param_type>, <param_name>, <default_value>])
 # if there is no default value, default_value will be nil.
-SIMPLIFIED_PARAM_ARRAY = true
+SIMPLIFIED_PARAM_ARRAY = false
 ### --- options end here ---
 
 jsondata = {}
